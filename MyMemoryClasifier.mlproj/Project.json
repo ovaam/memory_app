@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-22T15:27:05Z",
+        "event" : "projectCreated",
+        "id" : "BB760C03-EBD8-4986-B439-E0004CC5BD47",
+        "subtitle" : "MyMemoryClasifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Малова Олеся",
+  "createdDate" : "2026-05-22T15:27:05Z",
+  "description" : "split input text into events and answering questions about memory",
+  "id" : "E2BD4C97-AF25-4746-9588-0B1484B8D36F",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-22T15:27:05Z",
+  "projectName" : "MyMemoryClasifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

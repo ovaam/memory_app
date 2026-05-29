@@ -1,0 +1,752 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-22T15:27:21Z",
+        "event" : "trainingDataAdded",
+        "id" : "A0F630D1-000B-41D8-8943-F77BFBF29A76",
+        "subtitle" : "question_intent_training.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-22T15:28:07Z",
+        "event" : "trainingStarted",
+        "id" : "E19CE62C-70BD-4541-9827-69F826EAC76C",
+        "subtitle" : "30 iterations",
+        "title" : "Training Started"
+      },
+      {
+        "createdDate" : "2026-05-22T15:28:20Z",
+        "event" : "trainingStarted",
+        "id" : "EA2D422B-B4B8-4756-B2C0-14DD0DCB86CE",
+        "subtitle" : "30 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-05-22T15:27:05Z",
+        "event" : "experimentCreated",
+        "id" : "E9AFE179-C5B0-40CD-BA3C-BA3417F7B5C1",
+        "subtitle" : "MyMemoryClasifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingStopped",
+    [
+      {
+        "createdDate" : "2026-05-22T15:28:07Z",
+        "event" : "trainingStopped",
+        "id" : "1A31C23E-F0BA-4396-BDE0-8DA8E1AE7112",
+        "subtitle" : "MyMemoryClasifier 1",
+        "title" : "Training Stopped"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-05-22T15:28:21Z",
+        "event" : "trainingFinished",
+        "id" : "A3E1979C-0564-4AE7-B23E-D39A92F9E2F0",
+        "subtitle" : "Model converged at 2 iterations",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-05-22T15:27:21Z"
+  },
+  "createdDate" : "2026-05-22T15:27:05Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-05-22T15:28:21Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "none",
+        "createdDate" : "2026-05-22T15:28:21Z",
+        "dataResult" : {
+
+        },
+        "id" : "b4e5c46e-8950-4460-bf86-1bdee1d793b1"
+      }
+    ],
+    "id" : "9ee1b650-9952-4700-aed3-11fe08b04c6b",
+    "modifiedDate" : "2026-05-22T15:28:21Z",
+    "previewType" : "textClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-22T15:27:05Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-22T15:27:21Z"
+      },
+      "id" : "1c517719-5c1a-481a-ae58-625951e60afe"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-22T15:27:05Z",
+      "dataResult" : {
+        "classesCount" : 5,
+        "createdDate" : "2026-05-22T15:27:21Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "labelStats" : {
+              "didDo" : 35,
+              "howMany" : 19,
+              "search" : 25,
+              "whatDid" : 24,
+              "whenDid" : 25
+            }
+          },
+          "issues" : [
+            {
+              "description" : "5 classes found, including didDo, search, whenDid",
+              "severity" : "debug"
+            },
+            {
+              "description" : "128 texts found, automatically creating validation set",
+              "severity" : "good"
+            },
+            {
+              "description" : "Smallest class is \"howMany\" with 19 texts",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"didDo\" with 35 text",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 5,
+            "sampleCount" : 128
+          }
+        },
+        "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+        "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+        "itemsCount" : 128
+      },
+      "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+      "evaluationResult" : {
+        "textClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "didDo",
+              "count" : 33,
+              "expected" : "didDo"
+            },
+            {
+              "actual" : "howMany",
+              "count" : 18,
+              "expected" : "howMany"
+            },
+            {
+              "actual" : "search",
+              "count" : 22,
+              "expected" : "search"
+            },
+            {
+              "actual" : "whatDid",
+              "count" : 20,
+              "expected" : "whatDid"
+            },
+            {
+              "actual" : "whenDid",
+              "count" : 23,
+              "expected" : "whenDid"
+            }
+          ],
+          "statsByLabel" : {
+            "didDo" : {
+              "count" : 33,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "howMany" : {
+              "count" : 18,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "search" : {
+              "count" : 22,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "whatDid" : {
+              "count" : 20,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "whenDid" : {
+              "count" : 23,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "da7e5b87-2de8-4128-930d-c3193bc2c66b"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-05-22T15:27:05Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-22T15:27:21Z"
+      },
+      "evaluationResult" : {
+        "textClassifier" : {
+          "accuracy" : 0.75,
+          "confusionMatrix" : [
+            {
+              "actual" : "didDo",
+              "count" : 2,
+              "expected" : "didDo"
+            },
+            {
+              "actual" : "howMany",
+              "count" : 1,
+              "expected" : "howMany"
+            },
+            {
+              "actual" : "search",
+              "count" : 1,
+              "expected" : "didDo"
+            },
+            {
+              "actual" : "search",
+              "count" : 1,
+              "expected" : "search"
+            },
+            {
+              "actual" : "search",
+              "count" : 1,
+              "expected" : "whatDid"
+            },
+            {
+              "actual" : "whatDid",
+              "count" : 4,
+              "expected" : "whatDid"
+            },
+            {
+              "actual" : "whenDid",
+              "count" : 1,
+              "expected" : "whatDid"
+            },
+            {
+              "actual" : "whenDid",
+              "count" : 1,
+              "expected" : "whenDid"
+            }
+          ],
+          "statsByLabel" : {
+            "didDo" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.6666666666666666,
+                  "recall" : 1
+                }
+              }
+            },
+            "howMany" : {
+              "count" : 1,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "search" : {
+              "count" : 3,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.3333333333333333
+                }
+              }
+            },
+            "whatDid" : {
+              "count" : 4,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.6666666666666666,
+                  "recall" : 1
+                }
+              }
+            },
+            "whenDid" : {
+              "count" : 2,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.5
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "5010e050-2cc2-4622-b2e1-e6c3d5437f18"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "c8ee1e5c-8586-4e50-afdf-eb4fea7bf4cc"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "C8CE9856-3979-44F3-9669-6770EE8B856A",
+  "modelEntity" : {
+    "createdDate" : "2026-05-22T15:27:05Z",
+    "experimentID" : "C8CE9856-3979-44F3-9669-6770EE8B856A",
+    "id" : "477EAC1C-851B-4048-87E6-FC99F70E2144",
+    "modelURL" : "Models/MyMemoryClasifier%201.mlmodel",
+    "modifiedDate" : "2026-05-22T15:27:05Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-05-22T15:28:21Z",
+  "preferredFilename" : "MyMemoryClasifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 30,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "textClassifier",
+    "textClassifierArabicLanguage" : "automatic",
+    "textClassifierCJKLanguage" : "automatic",
+    "textClassifierCyrillicLanguage" : "automatic",
+    "textClassifierIndicLanguage" : "automatic",
+    "textClassifierLatin" : "automatic",
+    "textClassifierScript" : "latin",
+    "textClassifierThaiLanguage" : "automatic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "MyMemoryClasifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 5,
+      "createdDate" : "2026-05-22T15:27:21Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "labelStats" : {
+            "didDo" : 35,
+            "howMany" : 19,
+            "search" : 25,
+            "whatDid" : 24,
+            "whenDid" : 25
+          }
+        },
+        "issues" : [
+          {
+            "description" : "5 classes found, including didDo, search, whenDid",
+            "severity" : "debug"
+          },
+          {
+            "description" : "128 texts found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"howMany\" with 19 texts",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"didDo\" with 35 text",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 5,
+          "sampleCount" : 128
+        }
+      },
+      "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+      "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+      "itemsCount" : 128
+    },
+    "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-05-22T15:28:21Z",
+    "progress" : [
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "tcTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 10,
+          "trainingAccuracy" : 0.17241379618644714,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1,
+        "tcTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 9,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 6,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 16,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 26,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 36,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 46,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 56,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 66,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 76,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 86,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 96,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 106,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 116,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-05-22T15:28:20Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "textClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "didDo",
+            "count" : 33,
+            "expected" : "didDo"
+          },
+          {
+            "actual" : "howMany",
+            "count" : 18,
+            "expected" : "howMany"
+          },
+          {
+            "actual" : "search",
+            "count" : 22,
+            "expected" : "search"
+          },
+          {
+            "actual" : "whatDid",
+            "count" : 20,
+            "expected" : "whatDid"
+          },
+          {
+            "actual" : "whenDid",
+            "count" : 23,
+            "expected" : "whenDid"
+          }
+        ],
+        "statsByLabel" : {
+          "didDo" : {
+            "count" : 33,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "howMany" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "search" : {
+            "count" : 22,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "whatDid" : {
+            "count" : 20,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "whenDid" : {
+            "count" : 23,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.75,
+    "validationResults" : {
+      "textClassifier" : {
+        "accuracy" : 0.75,
+        "confusionMatrix" : [
+          {
+            "actual" : "didDo",
+            "count" : 2,
+            "expected" : "didDo"
+          },
+          {
+            "actual" : "howMany",
+            "count" : 1,
+            "expected" : "howMany"
+          },
+          {
+            "actual" : "search",
+            "count" : 1,
+            "expected" : "didDo"
+          },
+          {
+            "actual" : "search",
+            "count" : 1,
+            "expected" : "search"
+          },
+          {
+            "actual" : "search",
+            "count" : 1,
+            "expected" : "whatDid"
+          },
+          {
+            "actual" : "whatDid",
+            "count" : 4,
+            "expected" : "whatDid"
+          },
+          {
+            "actual" : "whenDid",
+            "count" : 1,
+            "expected" : "whatDid"
+          },
+          {
+            "actual" : "whenDid",
+            "count" : 1,
+            "expected" : "whenDid"
+          }
+        ],
+        "statsByLabel" : {
+          "didDo" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.6666666666666666,
+                "recall" : 1
+              }
+            }
+          },
+          "howMany" : {
+            "count" : 1,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "search" : {
+            "count" : 3,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.3333333333333333
+              }
+            }
+          },
+          "whatDid" : {
+            "count" : 4,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.6666666666666666,
+                "recall" : 1
+              }
+            }
+          },
+          "whenDid" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.5
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-05-22T15:27:21Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

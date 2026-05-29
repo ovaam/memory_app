@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Memory — Presentation</title>
+  <style>
+    @page { size: A4 landscape; margin: 18mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "SF Pro Text", sans-serif;
+      color: #1a1a1a;
+      background: #f7fafb;
+    }
+    .slide {
+      min-height: 100vh;
+      padding: 48px 56px;
+      page-break-after: always;
+      background: linear-gradient(180deg, #f7fafb 0%, #edf5f7 100%);
+      position: relative;
+    }
+    .slide:last-child { page-break-after: auto; }
+    h1, h2, .serif { font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 600; }
+    h1 { font-size: 42px; letter-spacing: -0.02em; margin: 0 0 16px; }
+    h2 { font-size: 28px; margin: 0 0 20px; color: #333; }
+    p, li { font-size: 17px; line-height: 1.55; color: #444; }
+    .subtitle { font-size: 22px; color: #555; max-width: 640px; font-family: ui-serif, Georgia, serif; }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.06);
+      font-size: 13px;
+      margin-right: 8px;
+      margin-top: 8px;
+    }
+    .accent {
+      background: #5c6fb8;
+      color: #fff;
+    }
+    .card {
+      background: rgba(255,255,255,0.78);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin: 16px 0;
+    }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+    .stat {
+      text-align: center;
+      padding: 20px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .stat strong { display: block; font-size: 26px; margin-bottom: 6px; }
+    .stat span { font-size: 13px; color: #666; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+    th { color: #666; font-weight: 600; }
+    .fab {
+      position: absolute;
+      bottom: 48px;
+      right: 56px;
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #5c6fb8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: 700;
+      color: #111;
+    }
+    .footer { position: absolute; bottom: 24px; left: 56px; font-size: 12px; color: #888; }
+    .ok { color: #2d6a4f; font-weight: 600; }
+    .plan { color: #b8860b; font-weight: 600; }
+    @media print {
+      body { background: white; }
+      .slide { min-height: auto; height: 190mm; }
+    }
+  </style>
+</head>
+<body>
+
+<section class="slide">
+  <h1>Memory</h1>
+  <p class="subtitle">Персональная память дня — голос, хронология, вопросы к прошлому</p>
+  <div style="margin-top: 28px">
+    <span class="badge accent">SwiftUI</span>
+    <span class="badge">On-device ML</span>
+    <span class="badge">SwiftData</span>
+    <span class="badge">2026</span>
+  </div>
+  <div class="grid3" style="margin-top: 48px">
+    <div class="stat"><strong>3</strong><span>AI-контура</span></div>
+    <div class="stat"><strong>0</strong><span>Обязательная регистрация</span></div>
+    <div class="stat"><strong>100%</strong><span>Локальная обработка</span></div>
+  </div>
+  <div class="footer">memory · iOS</div>
+</section>
+
+<section class="slide">
+  <h2>Проблема</h2>
+  <div class="grid2">
+    <div class="card">
+      <p><strong>Как сейчас</strong></p>
+      <ul>
+        <li>День — обрывки без структуры</li>
+        <li>Дневники требуют ручного оформления</li>
+        <li>Поиск «когда я это делал» занимает время</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p><strong>Запрос</strong></p>
+      <ul>
+        <li>Рассказать день естественно</li>
+        <li>Получить хронологию автоматически</li>
+        <li>Спросить память одной фразой</li>
+        <li>Приватность данных</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Решение</h2>
+  <div class="card">
+    <p class="serif" style="font-size: 20px; margin: 0">
+      Memory превращает рассказ (голос/текст) в события с временем и фото,
+      хранит историю на устройстве и отвечает на вопросы по всей памяти.
+    </p>
+  </div>
+  <div class="grid3" style="margin-top: 24px">
+    <div class="stat"><strong>1</strong><span>Запись</span></div>
+    <div class="stat"><strong>2</strong><span>Структура + уточнения</span></div>
+    <div class="stat"><strong>3</strong><span>Ask your memory</span></div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Продукт</h2>
+  <table>
+    <tr><th>Экран</th><th>Возможность</th></tr>
+    <tr><td>Онбординг</td><td>Без регистрации</td></tr>
+    <tr><td>Календарь</td><td>Кружки-дни, свайп месяцев, превью</td></tr>
+    <tr><td>Запись</td><td>Голос + текст, структурирование</td></tr>
+    <tr><td>Уточнения</td><td>Время и порядок событий</td></tr>
+    <tr><td>День</td><td>Лента событий, фото</td></tr>
+    <tr><td>Поиск</td><td>Ask your memory</td></tr>
+  </table>
+  <div class="fab">+</div>
+</section>
+
+<section class="slide">
+  <h2>Архитектура</h2>
+  <div class="card serif" style="font-size: 16px; line-height: 2">
+    Голос/Текст → DayStructuringEngine → SwiftData<br/>
+    SwiftData → MemoryKnowledgeBase → MemoryQueryEngine<br/>
+    MemoryQuestionClassifier (Core ML + fallback)
+  </div>
+  <p>Все критичные сценарии — on-device. Серверный AI не обязателен.</p>
+</section>
+
+<section class="slide">
+  <h2>ML · Структурирование дня</h2>
+  <div class="grid2">
+    <div class="card">
+      <p class="ok">Реализовано</p>
+      <ul>
+        <li>Speech (ru-RU)</li>
+        <li>Разбиение на события</li>
+        <li>Извлечение времени</li>
+        <li>Хронология + уточняющие вопросы</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="plan">Roadmap</p>
+      <ul>
+        <li>Create ML Word Tagging</li>
+        <li>Авто-структурирование после записи</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>ML · Ask your memory</h2>
+  <table>
+    <tr><th>Intent</th><th>Пример</th></tr>
+    <tr><td>didDo</td><td>Делал ли я бег?</td></tr>
+    <tr><td>whenDid</td><td>Когда я был в зале?</td></tr>
+    <tr><td>whatDid</td><td>Что я делал вчера?</td></tr>
+    <tr><td>howMany</td><td>Сколько раз кофе?</td></tr>
+    <tr><td>search</td><td>Память про встречу</td></tr>
+  </table>
+  <p style="margin-top: 20px">Core ML: датасет ~130 примеров, код готов — модель после обучения в Create ML.</p>
+</section>
+
+<section class="slide">
+  <h2>Приватность · Технологии</h2>
+  <div class="grid2">
+    <div class="card">
+      <ul>
+        <li>On-device: Speech, NL, Core ML</li>
+        <li>SwiftData — локальная база</li>
+        <li>iCloud sync — в планах</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p>SwiftUI · SwiftData · Speech · NaturalLanguage · Core ML · Create ML · PhotosUI</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Демо · Roadmap</h2>
+  <ol>
+    <li>Календарь → день → запись голосом</li>
+    <li>Структурировать → уточнить → сохранить</li>
+    <li>«Когда я пил кофе?» → ответ из памяти</li>
+  </ol>
+  <table style="margin-top: 24px">
+    <tr><th>Задача</th><th>Статус</th></tr>
+    <tr><td>MemoryQuestionIntent.mlmodel</td><td class="plan">Датасет готов</td></tr>
+    <tr><td>CloudKit sync</td><td class="plan">Заглушка</td></tr>
+    <tr><td>Create ML структурирование</td><td class="plan">План</td></tr>
+  </table>
+</section>
+
+<section class="slide" style="text-align: center">
+  <h1 style="margin-top: 80px">Memory</h1>
+  <p class="subtitle" style="margin: 0 auto">Твой день понятен тебе — Memory помогает не забыть детали.</p>
+  <div class="fab" style="position: relative; margin: 48px auto 0; right: auto; bottom: auto">+</div>
+</section>
+
+</body>
+</html>

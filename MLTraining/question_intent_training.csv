@@ -1,0 +1,129 @@
+text,label
+"Делал ли я бег вчера?",didDo
+"Делала ли я йогу сегодня?",didDo
+"Я бегал на прошлой неделе?",didDo
+"Я ходила в бассейн?",didDo
+"Был ли я в зале?",didDo
+"Была ли я в спортзале?",didDo
+"Ходил ли я в спортзал?",didDo
+"Ходила ли я в зал вчера?",didDo
+"Пил ли я кофе сегодня?",didDo
+"Пила ли я кофе утром?",didDo
+"Встречался ли я с Аней?",didDo
+"Встречалась ли я с Машей?",didDo
+"Гулял ли я в парке?",didDo
+"Гуляла ли я вечером?",didDo
+"Ездил ли я на работу?",didDo
+"Был ли я на работе?",didDo
+"Работал ли я над проектом?",didDo
+"Учился ли я вчера?",didDo
+"Смотрел ли я фильм?",didDo
+"Готовил ли я ужин?",didDo
+"Занимался ли я английским?",didDo
+"Медитировал ли я?",didDo
+"Принимал ли я лекарство?",didDo
+"Покупал ли я продукты?",didDo
+"Заходил ли я в магазин?",didDo
+"Ты ходил в бассейн на прошлой неделе?",didDo
+"Я вообще бегал в апреле?",didDo
+"Мы встречались с командой?",didDo
+"Был ли у меня созвон?",didDo
+"Я писал в дневник?",didDo
+"Did I go running?",didDo
+"Was I at the gym?",didDo
+"Did I drink coffee today?",didDo
+"Have I met Anna?",didDo
+"Did I work from home?",didDo
+"Когда я был в спортзале?",whenDid
+"Когда я ходила в зал?",whenDid
+"Когда я пил кофе?",whenDid
+"Когда я пила чай?",whenDid
+"В какой день я бегал?",whenDid
+"В какой день была прогулка?",whenDid
+"Во сколько я был на встрече?",whenDid
+"Во сколько началась тренировка?",whenDid
+"Когда была встреча с Аней?",whenDid
+"Когда я гулял в парке?",whenDid
+"Когда я ездил на работу?",whenDid
+"Когда я работал над проектом?",whenDid
+"Когда я смотрел сериал?",whenDid
+"Когда я ложился спать?",whenDid
+"Когда я проснулся?",whenDid
+"Когда был поход в магазин?",whenDid
+"Когда я учился?",whenDid
+"Вчера во сколько я ел?",whenDid
+"В какое время я пил кофе?",whenDid
+"На прошлой неделе когда я бегал?",whenDid
+"12 апреля во сколько была встреча?",whenDid
+"When did I go to the gym?",whenDid
+"When did I drink coffee?",whenDid
+"What time was my meeting?",whenDid
+"When was my walk in the park?",whenDid
+"Что я делал вчера?",whatDid
+"Что я делала вчера?",whatDid
+"Что я делал 12 апреля?",whatDid
+"Что я делал в понедельник?",whatDid
+"Что было в тот день?",whatDid
+"Что происходило 3 мая?",whatDid
+"Расскажи про мой день",whatDid
+"Расскажи что я делал",whatDid
+"Опиши мой вчерашний день",whatDid
+"Как прошёл мой день?",whatDid
+"Чем я занимался сегодня?",whatDid
+"Чем я занималась вечером?",whatDid
+"Какие у меня были события?",whatDid
+"Покажи события за вчера",whatDid
+"Что у меня было запланировано?",whatDid
+"Что я делал утром?",whatDid
+"Что я делал днём?",whatDid
+"Что я делал вечером?",whatDid
+"Что я делал на работе?",whatDid
+"Что я делал дома?",whatDid
+"What did I do yesterday?",whatDid
+"What happened on April 12?",whatDid
+"Tell me about my day",whatDid
+"Show my events for today",whatDid
+"Сколько раз я пил кофе?",howMany
+"Сколько раз я пила кофе?",howMany
+"Сколько раз я был в зале?",howMany
+"Сколько раз я ходила в зал?",howMany
+"Сколько раз я бегал?",howMany
+"Сколько раз я гулял?",howMany
+"Сколько раз была встреча с Аней?",howMany
+"Сколько раз я ездил на работу?",howMany
+"Сколько раз я заказывал еду?",howMany
+"Сколько раз я смотрел сериал?",howMany
+"Сколько прогулок было на неделе?",howMany
+"Сколько тренировок в апреле?",howMany
+"Сколько раз я писал в дневник?",howMany
+"Сколько раз я медитировал?",howMany
+"Сколько раз я просыпался ночью?",howMany
+"How many times did I run?",howMany
+"How many times did I drink coffee?",howMany
+"How many gym sessions did I have?",howMany
+"How many meetings with Anna?",howMany
+"Память про прогулку",search
+"Память про кофе",search
+"Память про встречу",search
+"Найди встречу с другом",search
+"Найди всё про зал",search
+"Найди записи про работу",search
+"Поиск по слову бег",search
+"Ищи тренировку",search
+"Покажи всё про Аню",search
+"Есть ли что-то про проект?",search
+"Что есть про ужин?",search
+"Вспомни про поездку",search
+"Записи про фильм",search
+"История про магазин",search
+"Ask about coffee",search
+"Ask your memory about gym",search
+"Find walking",search
+"Memory about meeting",search
+"Search for swimming",search
+"Зал тренировка",search
+"Кофе утром",search
+"прогулка парк",search
+"встреча аня",search
+"работа дом",search
+"спортзал вечер",search

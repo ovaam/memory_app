@@ -1,0 +1,106 @@
+{
+  "activityEntities" : [
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-22T15:28:07Z",
+        "event" : "dataSourceMetrics",
+        "id" : "F5917265-35F8-4D65-B0F1-D85F197A92B0",
+        "subtitle" : "5 Classes, 128 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-05-22T15:28:20Z",
+        "event" : "dataSourceMetrics",
+        "id" : "23D69743-6FBD-404B-97EE-EE6D9E254DEA",
+        "subtitle" : "5 Classes, 128 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-22T15:28:07Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "668F4829-8D6B-43C0-A147-96E5E5103D07",
+        "subtitle" : "MyMemoryClasifier 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-05-22T15:28:20Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "0E9DA279-4525-40B6-AD68-131C8D652C04",
+        "subtitle" : "MyMemoryClasifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-22T15:27:21Z",
+        "event" : "dataSourceCreated",
+        "id" : "034E27A8-6D49-44CE-B93D-A431CE4FBDD9",
+        "subtitle" : "question_intent_training.csv",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-22T15:27:21Z",
+  "dataPathRelativeToProjectURL" : "../MLTraining/question_intent_training.csv/",
+  "dataResult" : {
+    "classesCount" : 5,
+    "createdDate" : "2026-05-22T15:27:21Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "labelStats" : {
+          "didDo" : 35,
+          "howMany" : 19,
+          "search" : 25,
+          "whatDid" : 24,
+          "whenDid" : 25
+        }
+      },
+      "issues" : [
+        {
+          "description" : "5 classes found, including didDo, whenDid, search",
+          "severity" : "debug"
+        },
+        {
+          "description" : "128 texts found, automatically creating validation set",
+          "severity" : "good"
+        },
+        {
+          "description" : "Smallest class is \"howMany\" with 19 texts",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"didDo\" with 35 text",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "classCount" : 5,
+        "sampleCount" : 128
+      }
+    },
+    "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+    "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+    "itemsCount" : 128
+  },
+  "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+  "experimentIDs" : [
+    "C8CE9856-3979-44F3-9669-6770EE8B856A"
+  ],
+  "id" : "EC9857DA-9130-465C-8546-D43C9A475962",
+  "modifiedDate" : "2026-05-22T15:29:14Z",
+  "pathType" : 0,
+  "preferredFilename" : "question_intent_training.csv",
+  "title" : "question_intent_training.csv",
+  "version" : "1.0"
+}
