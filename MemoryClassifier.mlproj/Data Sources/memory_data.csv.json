@@ -1,0 +1,93 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-31T17:46:33Z",
+        "event" : "dataSourceCreated",
+        "id" : "D12743FC-C932-419A-8EC7-A05F50B040CA",
+        "subtitle" : "memory_data.csv",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-31T17:46:44Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "646B65F3-F2E5-41B3-A479-8DD130977539",
+        "subtitle" : "MemoryClassifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-31T17:46:44Z",
+        "event" : "dataSourceMetrics",
+        "id" : "844097FE-EDE7-4BAF-B7A4-D8CA2F3C8727",
+        "subtitle" : "5 Classes, 128 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-31T17:46:33Z",
+  "dataPathRelativeToProjectURL" : "../memory_data.csv/",
+  "dataResult" : {
+    "classesCount" : 5,
+    "createdDate" : "2026-05-31T17:46:33Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "labelStats" : {
+          "didDo" : 35,
+          "howMany" : 19,
+          "search" : 25,
+          "whatDid" : 24,
+          "whenDid" : 25
+        }
+      },
+      "issues" : [
+        {
+          "description" : "5 classes found, including didDo, search, whenDid",
+          "severity" : "debug"
+        },
+        {
+          "description" : "128 texts found, automatically creating validation set",
+          "severity" : "good"
+        },
+        {
+          "description" : "Smallest class is \"howMany\" with 19 texts",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"didDo\" with 35 text",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "classCount" : 5,
+        "sampleCount" : 128
+      }
+    },
+    "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+    "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv",
+    "itemsCount" : 128
+  },
+  "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv",
+  "experimentIDs" : [
+    "BF833820-B6CF-4305-BFA0-6EE7B0041608",
+    "FF47CDB8-864F-40FC-8F3E-376E1B4C3E39"
+  ],
+  "id" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+  "modifiedDate" : "2026-05-31T17:48:27Z",
+  "pathType" : 0,
+  "preferredFilename" : "memory_data.csv",
+  "title" : "memory_data.csv",
+  "version" : "1.0"
+}

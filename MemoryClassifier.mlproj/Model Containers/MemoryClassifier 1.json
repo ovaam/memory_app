@@ -1,96 +1,79 @@
 {
   "activityEntities" : [
-    "experimentCreated",
-    [
-      {
-        "createdDate" : "2026-05-22T15:27:05Z",
-        "event" : "experimentCreated",
-        "id" : "E9AFE179-C5B0-40CD-BA3C-BA3417F7B5C1",
-        "subtitle" : "MyMemoryClasifier 1",
-        "title" : "Model Source Created"
-      }
-    ],
     "trainingFinished",
     [
       {
-        "createdDate" : "2026-05-22T15:28:21Z",
+        "createdDate" : "2026-05-31T17:46:45Z",
         "event" : "trainingFinished",
-        "id" : "A3E1979C-0564-4AE7-B23E-D39A92F9E2F0",
+        "id" : "713E5BA8-C27F-4EB1-A813-DC1E7A82437E",
         "subtitle" : "Model converged at 2 iterations",
         "title" : "Training Completed"
-      }
-    ],
-    "trainingStopped",
-    [
-      {
-        "createdDate" : "2026-05-22T15:28:07Z",
-        "event" : "trainingStopped",
-        "id" : "1A31C23E-F0BA-4396-BDE0-8DA8E1AE7112",
-        "subtitle" : "MyMemoryClasifier 1",
-        "title" : "Training Stopped"
-      }
-    ],
-    "trainingDataAdded",
-    [
-      {
-        "createdDate" : "2026-05-22T15:27:21Z",
-        "event" : "trainingDataAdded",
-        "id" : "A0F630D1-000B-41D8-8943-F77BFBF29A76",
-        "subtitle" : "question_intent_training.csv",
-        "title" : "Training Data Added"
       }
     ],
     "trainingStarted",
     [
       {
-        "createdDate" : "2026-05-22T15:28:07Z",
+        "createdDate" : "2026-05-31T17:46:44Z",
         "event" : "trainingStarted",
-        "id" : "E19CE62C-70BD-4541-9827-69F826EAC76C",
-        "subtitle" : "30 iterations",
+        "id" : "B223A1BE-7434-4A94-A1F6-1E1431018196",
+        "subtitle" : "10 iterations",
         "title" : "Training Started"
-      },
+      }
+    ],
+    "experimentCreated",
+    [
       {
-        "createdDate" : "2026-05-22T15:28:20Z",
-        "event" : "trainingStarted",
-        "id" : "EA2D422B-B4B8-4756-B2C0-14DD0DCB86CE",
-        "subtitle" : "30 iterations",
-        "title" : "Training Started"
+        "createdDate" : "2026-05-31T17:46:20Z",
+        "event" : "experimentCreated",
+        "id" : "6A44AA72-8D8A-43B7-887F-425BF1C0BF5E",
+        "subtitle" : "MemoryClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-31T17:46:33Z",
+        "event" : "trainingDataAdded",
+        "id" : "98BFCE8F-CE39-403A-820F-D6DDB5C2BFFA",
+        "subtitle" : "memory_data.csv",
+        "title" : "Training Data Added"
       }
     ]
   ],
   "contentDataResult" : {
-    "createdDate" : "2026-05-22T15:27:21Z"
+    "createdDate" : "2026-05-31T17:46:33Z"
   },
-  "createdDate" : "2026-05-22T15:27:05Z",
+  "createdDate" : "2026-05-31T17:46:20Z",
   "evaluationContainerEntity" : {
-    "createdDate" : "2026-05-22T15:28:21Z",
+    "createdDate" : "2026-05-31T17:46:45Z",
     "evaluationEntities" : [
       {
         "analysedDataType" : "none",
-        "createdDate" : "2026-05-22T15:28:21Z",
+        "createdDate" : "2026-05-31T17:46:45Z",
         "dataResult" : {
 
         },
-        "id" : "b4e5c46e-8950-4460-bf86-1bdee1d793b1"
+        "id" : "43c50416-8d50-4754-8ab1-109bb3743e9f"
       }
     ],
-    "id" : "9ee1b650-9952-4700-aed3-11fe08b04c6b",
-    "modifiedDate" : "2026-05-22T15:28:21Z",
+    "id" : "a5a6e246-248a-49c5-b8bd-f0a25956c3e9",
+    "modifiedDate" : "2026-05-31T17:46:45Z",
     "previewType" : "textClassifier",
     "testingEvaluationEntity" : {
       "analysedDataType" : "none",
-      "createdDate" : "2026-05-22T15:27:05Z",
+      "createdDate" : "2026-05-31T17:46:20Z",
       "dataResult" : {
-        "createdDate" : "2026-05-22T15:27:21Z"
+        "createdDate" : "2026-05-31T17:46:33Z"
       },
-      "id" : "1c517719-5c1a-481a-ae58-625951e60afe"
+      "id" : "6247ec0b-8acb-48d4-a33b-067f86cb9336"
     },
     "trainingEvaluationEntity" : {
       "analysedDataType" : "none",
-      "createdDate" : "2026-05-22T15:27:05Z",
+      "createdDate" : "2026-05-31T17:46:20Z",
       "dataResult" : {
         "classesCount" : 5,
-        "createdDate" : "2026-05-22T15:27:21Z",
+        "createdDate" : "2026-05-31T17:46:33Z",
         "dataAnalysis" : {
           "classifierAnalysis" : {
             "labelStats" : {
@@ -103,7 +86,7 @@
           },
           "issues" : [
             {
-              "description" : "5 classes found, including didDo, search, whenDid",
+              "description" : "5 classes found, including didDo, whenDid, search",
               "severity" : "debug"
             },
             {
@@ -130,44 +113,44 @@
             "sampleCount" : 128
           }
         },
-        "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
-        "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+        "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+        "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv",
         "itemsCount" : 128
       },
-      "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+      "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
       "evaluationResult" : {
         "textClassifier" : {
           "accuracy" : 1,
           "confusionMatrix" : [
             {
               "actual" : "didDo",
-              "count" : 33,
+              "count" : 31,
               "expected" : "didDo"
             },
             {
               "actual" : "howMany",
-              "count" : 18,
+              "count" : 16,
               "expected" : "howMany"
             },
             {
               "actual" : "search",
-              "count" : 22,
+              "count" : 24,
               "expected" : "search"
             },
             {
               "actual" : "whatDid",
-              "count" : 20,
+              "count" : 23,
               "expected" : "whatDid"
             },
             {
               "actual" : "whenDid",
-              "count" : 23,
+              "count" : 22,
               "expected" : "whenDid"
             }
           ],
           "statsByLabel" : {
             "didDo" : {
-              "count" : 33,
+              "count" : 31,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
@@ -176,7 +159,7 @@
               }
             },
             "howMany" : {
-              "count" : 18,
+              "count" : 16,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
@@ -185,7 +168,7 @@
               }
             },
             "search" : {
-              "count" : 22,
+              "count" : 24,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
@@ -194,7 +177,7 @@
               }
             },
             "whatDid" : {
-              "count" : 20,
+              "count" : 23,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
@@ -203,7 +186,7 @@
               }
             },
             "whenDid" : {
-              "count" : 23,
+              "count" : 22,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
@@ -214,32 +197,27 @@
           }
         }
       },
-      "id" : "da7e5b87-2de8-4128-930d-c3193bc2c66b"
+      "id" : "02030311-0b75-4eee-a04d-a1b63f6a8f72"
     },
     "validationEvaluationEntity" : {
       "analysedDataType" : "auto",
-      "createdDate" : "2026-05-22T15:27:05Z",
+      "createdDate" : "2026-05-31T17:46:20Z",
       "dataResult" : {
-        "createdDate" : "2026-05-22T15:27:21Z"
+        "createdDate" : "2026-05-31T17:46:33Z"
       },
       "evaluationResult" : {
         "textClassifier" : {
-          "accuracy" : 0.75,
+          "accuracy" : 0.9166666666666666,
           "confusionMatrix" : [
             {
               "actual" : "didDo",
-              "count" : 2,
+              "count" : 4,
               "expected" : "didDo"
             },
             {
               "actual" : "howMany",
-              "count" : 1,
+              "count" : 3,
               "expected" : "howMany"
-            },
-            {
-              "actual" : "search",
-              "count" : 1,
-              "expected" : "didDo"
             },
             {
               "actual" : "search",
@@ -247,76 +225,71 @@
               "expected" : "search"
             },
             {
-              "actual" : "search",
-              "count" : 1,
-              "expected" : "whatDid"
-            },
-            {
               "actual" : "whatDid",
-              "count" : 4,
-              "expected" : "whatDid"
-            },
-            {
-              "actual" : "whenDid",
               "count" : 1,
               "expected" : "whatDid"
             },
             {
               "actual" : "whenDid",
               "count" : 1,
+              "expected" : "didDo"
+            },
+            {
+              "actual" : "whenDid",
+              "count" : 2,
               "expected" : "whenDid"
             }
           ],
           "statsByLabel" : {
             "didDo" : {
-              "count" : 2,
+              "count" : 4,
               "precisionRecall" : {
                 "success" : {
-                  "precision" : 0.6666666666666666,
+                  "precision" : 0.8,
                   "recall" : 1
                 }
               }
             },
             "howMany" : {
-              "count" : 1,
-              "precisionRecall" : {
-                "success" : {
-                  "precision" : 1,
-                  "recall" : 1
-                }
-              }
-            },
-            "search" : {
               "count" : 3,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
-                  "recall" : 0.3333333333333333
+                  "recall" : 1
+                }
+              }
+            },
+            "search" : {
+              "count" : 1,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
                 }
               }
             },
             "whatDid" : {
-              "count" : 4,
+              "count" : 1,
               "precisionRecall" : {
                 "success" : {
-                  "precision" : 0.6666666666666666,
+                  "precision" : 1,
                   "recall" : 1
                 }
               }
             },
             "whenDid" : {
-              "count" : 2,
+              "count" : 3,
               "precisionRecall" : {
                 "success" : {
                   "precision" : 1,
-                  "recall" : 0.5
+                  "recall" : 0.6666666666666666
                 }
               }
             }
           }
         }
       },
-      "id" : "5010e050-2cc2-4622-b2e1-e6c3d5437f18"
+      "id" : "e1c8e2f9-9599-47d8-8895-ff1f6dfec8eb"
     }
   },
   "evaluationEntity" : {
@@ -324,21 +297,21 @@
     "dataResult" : {
 
     },
-    "id" : "c8ee1e5c-8586-4e50-afdf-eb4fea7bf4cc"
+    "id" : "eeec55f9-fb00-4726-92c3-2fdc2520c76e"
   },
   "evaluationState" : "uninitialized",
-  "id" : "C8CE9856-3979-44F3-9669-6770EE8B856A",
+  "id" : "BF833820-B6CF-4305-BFA0-6EE7B0041608",
   "modelEntity" : {
-    "createdDate" : "2026-05-22T15:27:05Z",
-    "experimentID" : "C8CE9856-3979-44F3-9669-6770EE8B856A",
-    "id" : "477EAC1C-851B-4048-87E6-FC99F70E2144",
-    "modelURL" : "Models/MyMemoryClasifier%201.mlmodel",
-    "modifiedDate" : "2026-05-22T15:27:05Z",
+    "createdDate" : "2026-05-31T17:46:20Z",
+    "experimentID" : "BF833820-B6CF-4305-BFA0-6EE7B0041608",
+    "id" : "DA7C9C02-13D9-4789-9044-A04E28DABD0F",
+    "modelURL" : "Models/MemoryClassifier%201.mlmodel",
+    "modifiedDate" : "2026-05-31T17:46:20Z",
     "title" : "",
     "version" : "1.0"
   },
-  "modifiedDate" : "2026-05-22T15:28:21Z",
-  "preferredFilename" : "MyMemoryClasifier 1",
+  "modifiedDate" : "2026-05-31T17:46:45Z",
+  "preferredFilename" : "MemoryClassifier 1",
   "settingEntity" : {
     "algorithmType" : "maxEnt",
     "augmentations" : [
@@ -354,7 +327,7 @@
 
     ],
     "harVideoAugmentations" : 0,
-    "iterationCount" : 30,
+    "iterationCount" : 10,
     "seedType" : "default",
     "styleTransferAlgorithmType" : "image",
     "taskType" : "textClassifier",
@@ -370,7 +343,7 @@
     "withoutSnapshots" : 0
   },
   "state" : "trained",
-  "title" : "MyMemoryClasifier 1",
+  "title" : "MemoryClassifier 1",
   "trainingEntity" : {
     "analysedDataType" : "datasource",
     "checkpointMetrics" : {
@@ -378,7 +351,7 @@
     },
     "dataResult" : {
       "classesCount" : 5,
-      "createdDate" : "2026-05-22T15:27:21Z",
+      "createdDate" : "2026-05-31T17:46:33Z",
       "dataAnalysis" : {
         "classifierAnalysis" : {
           "labelStats" : {
@@ -391,7 +364,7 @@
         },
         "issues" : [
           {
-            "description" : "5 classes found, including didDo, search, whenDid",
+            "description" : "5 classes found, including didDo, whenDid, search",
             "severity" : "debug"
           },
           {
@@ -418,13 +391,13 @@
           "sampleCount" : 128
         }
       },
-      "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
-      "dataURL" : "file:///Users/ovaam/Desktop/memory/MLTraining/question_intent_training.csv",
+      "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+      "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv",
       "itemsCount" : 128
     },
-    "dataSourceID" : "EC9857DA-9130-465C-8546-D43C9A475962",
+    "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
     "featureExtractionCheckpointMayBeAvailable" : false,
-    "finishTime" : "2026-05-22T15:28:21Z",
+    "finishTime" : "2026-05-31T17:46:45Z",
     "progress" : [
       {
         "count" : 1,
@@ -438,7 +411,7 @@
           "hasTraining" : true,
           "hasValidation" : false,
           "remainingIterationCount" : 10,
-          "trainingAccuracy" : 0.17241379618644714,
+          "trainingAccuracy" : 0.18965516984462738,
           "validationAccuracy" : 0
         }
       },
@@ -558,7 +531,7 @@
     "snapshottableCheckpoints" : {
 
     },
-    "startTime" : "2026-05-22T15:28:20Z",
+    "startTime" : "2026-05-31T17:46:44Z",
     "trainingAccuracy" : 1,
     "trainingResults" : {
       "textClassifier" : {
@@ -566,33 +539,33 @@
         "confusionMatrix" : [
           {
             "actual" : "didDo",
-            "count" : 33,
+            "count" : 31,
             "expected" : "didDo"
           },
           {
             "actual" : "howMany",
-            "count" : 18,
+            "count" : 16,
             "expected" : "howMany"
           },
           {
             "actual" : "search",
-            "count" : 22,
+            "count" : 24,
             "expected" : "search"
           },
           {
             "actual" : "whatDid",
-            "count" : 20,
+            "count" : 23,
             "expected" : "whatDid"
           },
           {
             "actual" : "whenDid",
-            "count" : 23,
+            "count" : 22,
             "expected" : "whenDid"
           }
         ],
         "statsByLabel" : {
           "didDo" : {
-            "count" : 33,
+            "count" : 31,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -601,7 +574,7 @@
             }
           },
           "howMany" : {
-            "count" : 18,
+            "count" : 16,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -610,7 +583,7 @@
             }
           },
           "search" : {
-            "count" : 22,
+            "count" : 24,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -619,7 +592,7 @@
             }
           },
           "whatDid" : {
-            "count" : 20,
+            "count" : 23,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -628,7 +601,7 @@
             }
           },
           "whenDid" : {
-            "count" : 23,
+            "count" : 22,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -639,25 +612,20 @@
         }
       }
     },
-    "validationAccuracy" : 0.75,
+    "validationAccuracy" : 0.9166666666666666,
     "validationResults" : {
       "textClassifier" : {
-        "accuracy" : 0.75,
+        "accuracy" : 0.9166666666666666,
         "confusionMatrix" : [
           {
             "actual" : "didDo",
-            "count" : 2,
+            "count" : 4,
             "expected" : "didDo"
           },
           {
             "actual" : "howMany",
-            "count" : 1,
+            "count" : 3,
             "expected" : "howMany"
-          },
-          {
-            "actual" : "search",
-            "count" : 1,
-            "expected" : "didDo"
           },
           {
             "actual" : "search",
@@ -665,38 +633,33 @@
             "expected" : "search"
           },
           {
-            "actual" : "search",
-            "count" : 1,
-            "expected" : "whatDid"
-          },
-          {
             "actual" : "whatDid",
-            "count" : 4,
-            "expected" : "whatDid"
-          },
-          {
-            "actual" : "whenDid",
             "count" : 1,
             "expected" : "whatDid"
           },
           {
             "actual" : "whenDid",
             "count" : 1,
+            "expected" : "didDo"
+          },
+          {
+            "actual" : "whenDid",
+            "count" : 2,
             "expected" : "whenDid"
           }
         ],
         "statsByLabel" : {
           "didDo" : {
-            "count" : 2,
+            "count" : 4,
             "precisionRecall" : {
               "success" : {
-                "precision" : 0.6666666666666666,
+                "precision" : 0.8,
                 "recall" : 1
               }
             }
           },
           "howMany" : {
-            "count" : 1,
+            "count" : 3,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
@@ -705,29 +668,29 @@
             }
           },
           "search" : {
-            "count" : 3,
+            "count" : 1,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
-                "recall" : 0.3333333333333333
+                "recall" : 1
               }
             }
           },
           "whatDid" : {
-            "count" : 4,
+            "count" : 1,
             "precisionRecall" : {
               "success" : {
-                "precision" : 0.6666666666666666,
+                "precision" : 1,
                 "recall" : 1
               }
             }
           },
           "whenDid" : {
-            "count" : 2,
+            "count" : 3,
             "precisionRecall" : {
               "success" : {
                 "precision" : 1,
-                "recall" : 0.5
+                "recall" : 0.6666666666666666
               }
             }
           }
@@ -738,7 +701,7 @@
   "validationEntity" : {
     "analysedDataType" : "auto",
     "dataResult" : {
-      "createdDate" : "2026-05-22T15:27:21Z"
+      "createdDate" : "2026-05-31T17:46:33Z"
     },
     "splitOptions" : {
       "strategy" : {

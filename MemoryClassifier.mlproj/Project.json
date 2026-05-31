@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-31T17:46:20Z",
+        "event" : "projectCreated",
+        "id" : "630CC6A9-8680-43AC-99CD-E87A883C9EF9",
+        "subtitle" : "MemoryClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Малова Олеся",
+  "createdDate" : "2026-05-31T17:46:20Z",
+  "description" : "",
+  "id" : "7FD86C04-AD8A-42CD-A54E-24F242C428EC",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-31T17:46:20Z",
+  "projectName" : "MemoryClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

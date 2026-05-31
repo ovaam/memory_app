@@ -1,0 +1,189 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-31T17:48:27Z",
+        "event" : "trainingDataAdded",
+        "id" : "CD1ABDE6-0644-4A4A-B921-66F77FA7153B",
+        "subtitle" : "memory_data.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-05-31T17:48:26Z",
+        "event" : "experimentCreated",
+        "id" : "7495F5BC-A979-4312-8B7A-1D3917EBE135",
+        "subtitle" : "MemoryClassifier 1 copy",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-05-31T17:46:33Z"
+  },
+  "createdDate" : "2026-05-31T17:48:26Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-05-31T17:48:27Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "039444ee-0e45-432d-8f68-aa507003dd23",
+    "modifiedDate" : "2026-05-31T17:48:27Z",
+    "previewType" : "textClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-31T17:48:26Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-31T17:48:26Z"
+      },
+      "id" : "087f0350-30fe-4a06-9b35-7a3dbefe0e33"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-31T17:48:26Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-31T17:48:26Z",
+        "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+        "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv"
+      },
+      "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+      "id" : "a213eedd-4829-4bd4-8c6f-84052924cc61"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-05-31T17:48:26Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-31T17:48:26Z"
+      },
+      "id" : "5caf59f3-f0da-456a-9cca-a6f9a91bc3f7"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "3bae9f51-58ab-4779-8ff0-20c1ee3e2ce8"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "FF47CDB8-864F-40FC-8F3E-376E1B4C3E39",
+  "modelEntity" : {
+    "createdDate" : "2026-05-31T17:48:26Z",
+    "experimentID" : "78820905-0452-4987-AA4D-7B6E58D33653",
+    "id" : "A5E21E4E-4C8F-475A-9ACB-82B50B1114E1",
+    "modifiedDate" : "2026-05-31T17:48:26Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-05-31T17:48:27Z",
+  "preferredFilename" : "MemoryClassifier 1 copy",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 10,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "textClassifier",
+    "textClassifierArabicLanguage" : "automatic",
+    "textClassifierCJKLanguage" : "automatic",
+    "textClassifierCyrillicLanguage" : "automatic",
+    "textClassifierIndicLanguage" : "automatic",
+    "textClassifierLatin" : "automatic",
+    "textClassifierScript" : "latin",
+    "textClassifierThaiLanguage" : "automatic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "ready",
+  "title" : "MemoryClassifier 1 copy",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 5,
+      "createdDate" : "2026-05-31T17:48:26Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "labelStats" : {
+            "didDo" : 35,
+            "howMany" : 19,
+            "search" : 25,
+            "whatDid" : 24,
+            "whenDid" : 25
+          }
+        },
+        "issues" : [
+          {
+            "description" : "5 classes found, including didDo, search, whenDid",
+            "severity" : "debug"
+          },
+          {
+            "description" : "128 texts found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"howMany\" with 19 texts",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"didDo\" with 35 text",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 5,
+          "sampleCount" : 128
+        }
+      },
+      "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+      "dataURL" : "file:///Users/ovaam/Desktop/memory/memory_data.csv",
+      "itemsCount" : 128
+    },
+    "dataSourceID" : "14463B05-5F6D-4933-9884-CE2411E52CCA",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-05-31T17:48:26Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

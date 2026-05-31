@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C7709A62FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C7709A52FCCAC1500973353 /* MemoryClassifier 1.mlmodel */; };
+		6C7709A72FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C7709A52FCCAC1500973353 /* MemoryClassifier 1.mlmodel */; };
+		6C7709A82FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C7709A52FCCAC1500973353 /* MemoryClassifier 1.mlmodel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6CD407282F8D199D00140B6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C7709A52FCCAC1500973353 /* MemoryClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MemoryClassifier 1.mlmodel"; sourceTree = "<group>"; };
 		6CD407182F8D199B00140B6B /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD407272F8D199D00140B6B /* memoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD407312F8D199D00140B6B /* memoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +86,7 @@
 				6CD4072A2F8D199D00140B6B /* memoryTests */,
 				6CD407342F8D199D00140B6B /* memoryUITests */,
 				6CD407192F8D199B00140B6B /* Products */,
+				6C7709A52FCCAC1500973353 /* MemoryClassifier 1.mlmodel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7709A62FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7709A82FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7709A72FCCAC1600973353 /* MemoryClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
